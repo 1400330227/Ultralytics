@@ -1,0 +1,14 @@
+# path: D:/codes/ultralytics/datasets/steelPlate
+path: steelPlate
+train: train/images
+val: val/images
+test: test/images
+
+
+names:
+  0: crazing, #龟裂 钢材料中出现的细小裂纹
+  1: inclusion, #杂质 非金属或低熔点金属夹杂物混合于钢中
+  2: patches, #斑块 钢表面上不均匀的颜色或材质变化区域
+  3: pitted_surface, #点蚀 凹凸不平 表面形成的小孔或坑洼，由于腐蚀造成
+  4: rolled-in_scale, # 轧制氧化皮 热轧过程中形成的并压入钢材表面的氧化层
+  5: scratches # 划痕 由于物理接触导致的表面线性损伤
